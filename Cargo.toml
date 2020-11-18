@@ -1,0 +1,16 @@
+[package]
+name = "life-rs"
+version = "0.1.0"
+authors = ["expectocode <expectocode@gmail.com>"]
+
+[lib]
+name = "grid"
+path = "src/lib.rs"
+
+[[bin]]
+name = "life-rs"
+path = "src/main.rs"
+
+[dependencies]
+rand = "0.5"
+structopt = "0.2"
